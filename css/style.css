@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+hr {
+    
+    border: dotted grey 6px;
+    border-bottom:none;
+    width: 4%;
+    margin: 100px auto;
+}   
+h1{
+    color: #461111;
+    font-size: 527%;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+}
+h2{
+    color: #461111;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: normal;
+}
+h3{
+    color: #5e3246;
+    font-family: 'Montserrat', sans-serif ;
+}
+p{
+    
+    line-height: 2;
+}
+a{
+    margin: 10px 20px;
+    color: #5e3246;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif ;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+.copy-right{
+    padding-top: 100px;
+    color: white;
+    font-size: 0.75rem;
+}
+.top-container{
+    background-color: #F5EBEB;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    margin: 100px 0;
+
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.btn {
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border:none;
+    border-radius: 11px;
+    font-family: 'Montserrat', sans-serif ;
+    color: white;
+    font-size: 22px;
+    background: #D5B4B4;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #a37777;
+    text-decoration: none;
+}
+.bottom-container{
+ background-color: #a37777;
+ padding: 50px 0 20px;
+
+}
+.skill-row{
+    margin: 150px auto 200px auto;
+    width: 40%;
+    text-align: left;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.top-cloud{
+    position:absolute;
+    right: 500px; 
+    top: 50px;
+}
+
+.bottom-cloud{
+    position:absolute;
+    left: 400px;
+    bottom: 400px;
+}
+.memoji{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.computer{
+    float: left;
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.gamer{
+    float: right;
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+

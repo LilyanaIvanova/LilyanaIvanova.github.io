@@ -1,8 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./components/App";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "../styles.css";
+import App from "./components/App.jsx";
 
-ReactDOM.render(<App/>, document.getElementById("root"));
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
+
 //1. Implement the add note functionality.
 //- Create a constant that keeps track of the title and content.
 //- Pass the new note back to the App.
